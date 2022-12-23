@@ -1,0 +1,15 @@
+{
+  "name": "semantic-versioning",
+  "version": "1.0.0",
+  "description": "testing semantic versioning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elvis sautet",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.2.6",
+    "semantic-release": "^19.0.5"
+  }
+}
