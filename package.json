@@ -4,12 +4,20 @@
   "description": "testing semantic versioning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "release": "semantic-release"
   },
   "author": "Elvis sautet",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^19.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
