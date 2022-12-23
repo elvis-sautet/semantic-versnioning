@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
- 
-    "release": "npm version patch -m \"release %s\""
+    "release": "semantic-release",
+    "released": "npm version patch -m \"release %s\""
   },
   "author": "Elvis sautet",
   "license": "MIT",
